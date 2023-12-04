@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  certbot:
+    image: certbot/certbot:v2.5.0
+    container_name: certbot
+    restart: 'no'
+    networks:
+      - default
+    ports:
+      - 80:80/tcp
+    volumes:
+      - ./letsencrypt:/etc/letsencrypt
+      - ./certbot:/var/lib/letsencrypt
+    entrypoint:
+      - certbot
+      - renew
+#      - --dry-run
+
+networks:
+  default:
+    name: certbot
+    driver: bridge
+    enable_ipv6: false
+

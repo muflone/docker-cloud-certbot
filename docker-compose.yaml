@@ -43,10 +43,6 @@ services:
       - --agree-tos
       - --no-eff-email
 #      - --dry-run
-#    entrypoint:
-#      - certbot
-#      - renew
-#      - --dry-run
 
 networks:
   default:
