@@ -34,6 +34,14 @@ services:
       - -d
       - repositories.muflone.com
       - -d
+      - blog.muflone.com
+      - -d
+      - gnomeshell.muflone.com
+      - -d
+      - pygtk.muflone.com
+      - -d
+      - ubuntutrucchi.muflone.com
+      - -d
       - vbsimple.muflone.com
       - -d
       - vbsimple.net
