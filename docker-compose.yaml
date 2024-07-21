@@ -42,6 +42,8 @@ services:
       - -d
       - ubuntutrucchi.muflone.com
       - -d
+      - uptime.muflone.com
+      - -d
       - vbsimple.muflone.com
       - -d
       - vbsimple.net
