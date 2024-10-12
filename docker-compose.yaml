@@ -49,6 +49,10 @@ services:
       - vbsimple.net
       - -d
       - www.vbsimple.net
+      - -d
+      - muflone.it
+      - -d
+      - www.muflone.it
       - --email=webreg@muflone.com
       - --agree-tos
       - --no-eff-email
