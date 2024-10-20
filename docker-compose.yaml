@@ -44,6 +44,8 @@ services:
       - -d
       - uptime.muflone.com
       - -d
+      - webmail.muflone.com
+      - -d
       - vbsimple.muflone.com
       - -d
       - vbsimple.net
